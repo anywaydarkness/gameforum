@@ -1,0 +1,79 @@
+body
+{
+	background: black;
+	color: white;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.box
+{
+	border: 2px solid white;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 5px;
+	
+	width: 900px;
+}
+
+#header
+{
+	height: 200px;
+}
+
+#main
+{
+	min-height: 670px;
+}
+
+#bottom
+{
+	height: 70px;
+}
+
+#uname
+{
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#upic
+{
+    margin-left: 50px;
+    margin-top: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+#uploadBtn
+{
+	width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: -150;
+    margin-right: 20px;
+    background-image: url('/img/style/uploadIcon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+#autioControl
+{
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#audioTitle
+{
+	width: 400px;
+    height: 30px;
+    text-align: center;
+    padding: 10;
+    margin: auto;
+    margin-top: -30px;
+}
